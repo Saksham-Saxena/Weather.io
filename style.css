@@ -1,0 +1,38 @@
+
+body{
+    font-family: 'Varela Round', sans-serif;
+background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+h1{
+font-family: 'Varela Round', sans-serif;
+font-size:70px;
+}
+#search-txt{
+    border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+    height: 30%;
+    width:50%;
+    font-size:25px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+h2{
+font-family: 'Raleway', sans-serif;
+ font-size: 30px;
+}
+#icon{
+   height: 7%;
+    width:7%;  
+}
+p{
+  font-family: 'Varela Round', sans-serif;
+font-size: 20px;
+
+}
+
