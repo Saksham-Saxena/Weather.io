@@ -57,6 +57,9 @@ function httpRequestAsync(url, callback)
         if (httpRequest.readyState == 4 && httpRequest.status == 200)
             callback(httpRequest.responseText);
     }
+    if(httpRequest.status == 404){
+     alert("Invalid City name!");
+     } 
     httpRequest.open("GET", url, true); // true for asynchronous 
     httpRequest.send();
 }
