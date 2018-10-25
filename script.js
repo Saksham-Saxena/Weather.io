@@ -31,7 +31,7 @@ function findWeatherDetails() {
 function theResponse(response) {
 
   let jsonObject = JSON.parse(response);
-  if (jsonObject.sys.cod == 404){
+  if (jsonObject.cod == 404){
    alert("Invalid City Name!");
   }
   if(jsonObject.sys.cod = 200 ){
