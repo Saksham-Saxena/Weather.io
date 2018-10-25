@@ -31,6 +31,9 @@ function findWeatherDetails() {
 function theResponse(response) {
 
   let jsonObject = JSON.parse(response);
+  if (jsonObject.sys.cod == 404){
+   alert("Invalid City Name!");
+  }
   if(jsonObject.sys.cod = 200 ){
   cityName.innerHTML = jsonObject.name +" , "+jsonObject.sys.country ;
   icon.src = "http://openweathermap.org/img/w/" + jsonObject.weather[0].icon + ".png";
